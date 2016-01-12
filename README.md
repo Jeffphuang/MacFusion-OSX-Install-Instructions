@@ -1,5 +1,5 @@
 ## MacFusion Install Guide (Tested on OSX 10.11 El Capitan)
- - Start by opening the terminal by pressing Command+Space and searching for the program terminal
+#### Start by opening the terminal by pressing Command+Space and searching for the program terminal
  - Create SSH-RSA Keys
 ```
 ssh-keygen -t rsa
@@ -13,13 +13,11 @@ Enter same passphrase again:
 #### Press Enter through the 3 prompts
 
 ## WARNING: Do not share your id_rsa (private key) file with anyone. It will allow others to impersonate you and log into your account
- - transfer your id_rsa.pub (public key) to the ecelinux server
+#### transfer and copy your public key into the appropriate folder
 ```
 scp ~/.ssh/id_rsa.pub <your-uw-quest-id>@ecelinux.uwaterloo.ca:
 ```
  - Enter yes when prompted and Enter your quest password
-
-#### copy your public key into the appropriate folder
 ```
  ssh <your-uw-quest-id>@ecelinux.uwaterloo.ca
  mkdir ~/.ssh
