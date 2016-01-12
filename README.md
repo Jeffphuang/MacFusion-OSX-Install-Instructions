@@ -10,7 +10,7 @@ Enter file in which to save the key (/home/demo/.ssh/id_rsa):
 Enter passphrase (empty for no passphrase):
 Enter same passphrase again:
 ```
-#### Press Enter through the 3 prompts
+#### Press Enter through the 3 prompts(leave them empty)
 
 ## WARNING: Do not share your id_rsa (private key) file with anyone. It will allow others to impersonate you and log into your account
 #### transfer and copy your public key into the appropriate folder
