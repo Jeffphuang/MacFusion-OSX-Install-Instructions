@@ -38,7 +38,7 @@ scp ~/.ssh/id_rsa.pub <your-uw-quest-id>@ecelinux4.uwaterloo.ca:
  - Press the little (+) icon on the bottom left corner
  - select SSHFS
  - You can choose anything for the server name
- - enter ecelinux.uwaterloo.ca for the "Host" field
+ - enter ecelinux4.uwaterloo.ca for the "Host" field
  - enter your uw quest id for the "User Name" field
  - make sure you leave the password field blank and press ok
  - press the mount button on the main menu to mount the drive
