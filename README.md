@@ -15,18 +15,18 @@ Enter same passphrase again:
 ## WARNING: Do not share your id_rsa (private key) file with anyone. It will allow others to impersonate you and log into your account
 #### transfer and copy your public key into the appropriate folder
 ```
-scp ~/.ssh/id_rsa.pub <your-uw-quest-id>@ecelinux.uwaterloo.ca:
+scp ~/.ssh/id_rsa.pub <your-uw-quest-id>@ecelinux4.uwaterloo.ca:
 ```
  - Enter yes when prompted and Enter your quest password
 ```
- ssh <your-uw-quest-id>@ecelinux.uwaterloo.ca
+ ssh <your-uw-quest-id>@ecelinux4.uwaterloo.ca
  mkdir ~/.ssh
  mv ~/id_rsa.pub ~/.ssh/authorized_keys
  exit
 ```
 #### You should now be able to log in without your password. You can test this by running
 ```
- ssh <your-uw-id>@ecelinux.uwaterloo.ca
+ ssh <your-uw-id>@ecelinux4.uwaterloo.ca
  exit
 ```
 #### Install MacFusion and its dependencies
@@ -53,6 +53,6 @@ scp ~/.ssh/id_rsa.pub <your-uw-quest-id>@ecelinux.uwaterloo.ca:
  - You can also use the terminal as a ssh client
  - to enter the server: run
 ```
-ssh <your-uw-quest-id>@ecelinux.uwaterloo.ca
+ssh <your-uw-quest-id>@ecelinux4.uwaterloo.ca
 ```
  - you can now run shell commands such as g++, vim, etc
